@@ -26,3 +26,18 @@ Yes.
 ## Setting started
 Choose a boilerplate to start with
 - [ES5 boilerplate](https://github.com/sitepack/es5-boilerplate)
+
+## Guide
+#### Add a new page
+1. Add routes by editing `./config/route.js`.
+2. Create `index.js` in `./pages/{route.name}/`.
+
+#### Get router logs (for debugging)
+In `./index.js`, uncomment `router.usePlugin(Router5.loggerPlugin())`.
+
+## What happen during build time?
+1. Delete `./dist`.
+2. Build bundles, extract styles to .css file, this also makes code able to run in node context.
+3. Render pages to .html files by calling `{page}.render()`.
+4. Build bundles again without extracting styles (layz load style will work).
+5. Clean up, delete unused files.
