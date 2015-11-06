@@ -1,4 +1,4 @@
-# sitepack
+# Sitepack
 A framework for building lazymorphic applications.
 
 ## What is [lazymorphic applications](https://blog.andyet.com/2015/05/18/lazymorphic-apps-bringing-back-static-web)?
@@ -13,15 +13,15 @@ Static + SPA + SEO.
 - Run a nodejs server is not simple, more cost, more issues, more uncertainties.
 - Cache is hard.
 
+## Features
+- Powered by [webpack](https://webpack.github.io/), you can add [loaders](https://webpack.github.io/docs/list-of-loaders.html) like Typescript, Babel, Jade, React, Sass, Less, Post CSS, Markdown, ...
+- Support [CSS Modules](https://github.com/css-modules/css-modules).
+- Lazy load page content **and style** (critical-path CSS!).
+- Use [router5](http://router5.github.io/) for client side routing, you can control whether a page can be navigate or not.
+- Pre-rendered at build time (only public pages).
+
 ## Can I use it as a static site generator?
 Yes.
-
-## Features
-- Powered by webpack, you can add [loaders](https://webpack.github.io/docs/list-of-loaders.html) like Typescript, Babel, Jade, React, Sass, Less, Post CSS, Markdown, ...
-- Support [CSS Modules](https://github.com/css-modules/css-modules).
-- Lazy load page content **and style**.
-- Use [router5](http://router5.github.io/) for client side routing, you can control whether a page can be navigate or not.
-- Pre-rendered for SEO.
 
 ## Setting started
 Choose a boilerplate to start with
