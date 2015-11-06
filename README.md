@@ -33,7 +33,7 @@ Yes.
 ## Getting started
 Choose a boilerplate to start with
 - [ES5 boilerplate](https://github.com/sitepack/es5-boilerplate)
-- [ES6 Babel boilerplate](https://github.com/sitepack/es6-babel-boilerplate)
+- [ES2015 Babel boilerplate](https://github.com/sitepack/es2015-babel-boilerplate)
 
 
 ## Project status
