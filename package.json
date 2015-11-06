@@ -6,14 +6,14 @@
   "scripts": {
     "clean": "rimraf lib dist",
     "build:lib": "babel src --out-dir lib",
-    "build:umd": "webpack src/index.js dist/pack5.js --display-modules --progress && NODE_ENV=production webpack src/index.js dist/pack5.min.js --display-modules --progress",
+    "build:umd": "webpack src/index.js dist/sitepack.js --display-modules --progress && NODE_ENV=production webpack src/index.js dist/sitepack.min.js --display-modules --progress",
     "build": "npm run build:lib && npm run build:umd",
     "prepublish": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sitepack/sitepack.git"
+    "url": "https://github.com/sitepack/sitepack.git"
   },
   "keywords": [
     "lazymorphic",
