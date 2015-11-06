@@ -14,6 +14,7 @@ Static + SPA + SEO.
 - Cache is hard.
 
 ## Features
+- Tiny: `sitepack.min.js` is only 4.21 kB.
 - Powered by [webpack](https://webpack.github.io/), you can add [loaders](https://webpack.github.io/docs/list-of-loaders.html) like Typescript, Babel, Jade, React, Sass, Less, Post CSS, Markdown, ...
 - Support [CSS Modules](https://github.com/css-modules/css-modules).
 - Lazy load page content **and style** (critical-path CSS!).
@@ -31,6 +32,8 @@ Choose a boilerplate to start with
 #### Add a new page
 1. Add routes by editing `./config/route.js`.
 2. Create `index.js` in `./pages/{route.name}/`.
+3. Each `./pages/{route.name}/index.js` should export `render` function that returns `html string` when doing pre-render, returns `html string` or `DOM element` when running in browser.
+4. `canActivate` and `canDeactivate` are optional.
 
 #### Get router logs (for debugging)
 In `./index.js`, uncomment `router.usePlugin(Router5.loggerPlugin())`.
@@ -41,3 +44,6 @@ In `./index.js`, uncomment `router.usePlugin(Router5.loggerPlugin())`.
 3. Render pages to .html files by calling `{page}.render()`.
 4. Build bundles again without extracting styles (layz load style will work).
 5. Clean up, delete unused files.
+
+## Project status
+Sitepack is currently in the beta stage. However this project let you fully control everything, so just hack into it!
