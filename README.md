@@ -37,7 +37,7 @@ Choose a boilerplate to start with
 
 
 ## Project status
-Sitepack is currently in the beta stage. However this project let you fully control everything, so just hack into it!
+Sitepack is currently in the early stage. However this project let you fully control everything, so just hack into it!
 
 
 ## License
