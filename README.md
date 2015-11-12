@@ -13,7 +13,7 @@ Static + SPA + SEO.
 
 ## Why not Universal/Isomorphic?
 - Universal apps need to run in the Node context, they are hard to build, take more time and effort, and more bugs to deal with (some come from server side, not IE, damn...).
-- Run a Node.js server is not simple, more cost, more (security) issues, more uncertainties.
+- Running a Node.js server is not simple, more cost, more (security) issues, more uncertainties.
 - Cache is hard.
 
 
