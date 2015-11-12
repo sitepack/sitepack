@@ -3,7 +3,7 @@ A framework for building lazymorphic applications.
 
 
 ## What is [lazymorphic applications](https://blog.andyet.com/2015/05/18/lazymorphic-apps-bringing-back-static-web)?
-tl;dr
+TL;DR
 > Pre-rendered Single Page Applications.
 
 
@@ -18,7 +18,6 @@ Static + SPA + SEO.
 
 
 ## Features
-- Tiny: `sitepack.min.js` is only 4.21 kB.
 - Powered by [webpack](https://webpack.github.io/), you can add [loaders](https://webpack.github.io/docs/list-of-loaders.html) like Typescript, Babel, Jade, React, SASS, LESS, Post CSS, Markdown, ...
 - Support [CSS Modules](https://github.com/css-modules/css-modules).
 - Lazy load page content **and style** (critical-path CSS!).
