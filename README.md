@@ -1,5 +1,5 @@
 # Sitepack
-A framework for building lazymorphic applications.
+A boilerplate for building lazymorphic applications.
 
 
 ## What is [lazymorphic applications](https://blog.andyet.com/2015/05/18/lazymorphic-apps-bringing-back-static-web)?
@@ -20,7 +20,7 @@ Static + SPA + SEO.
 ## Features
 - Powered by [webpack](https://webpack.github.io/), you can add [loaders](https://webpack.github.io/docs/list-of-loaders.html) like Typescript, Babel, Jade, React, SASS, LESS, Post CSS, Markdown, ...
 - Support [CSS Modules](https://github.com/css-modules/css-modules).
-- Lazy load page content **and style** (critical-path CSS!).
+- Load content, scripts and style on demand.
 - Use [router5](http://router5.github.io/) for client side routing, you can control whether a page can be navigate or not.
 - Pre-rendered at build time (only public pages).
 
