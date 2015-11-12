@@ -12,8 +12,8 @@ Static + SPA + SEO.
 
 
 ## Why not Universal/Isomorphic?
-- Code is hard to maintain. You have to consider server side (eg. use isomorphic-fetch for ajax), and add lots of code to deal with it.
-- Run a nodejs server is not simple, more cost, more issues, more uncertainties.
+- Universal apps need to run in the Node context, they are hard to build, take more time and effort, and more bugs to deal with (some come from server side, not IE, damn...).
+- Run a Node.js server is not simple, more cost, more (security) issues, more uncertainties.
 - Cache is hard.
 
 
@@ -21,8 +21,8 @@ Static + SPA + SEO.
 - Powered by [webpack](https://webpack.github.io/), you can add [loaders](https://webpack.github.io/docs/list-of-loaders.html) like Typescript, Babel, Jade, React, SASS, LESS, Post CSS, Markdown, ...
 - Support [CSS Modules](https://github.com/css-modules/css-modules).
 - Load content, scripts and style on demand.
-- Use [router5](http://router5.github.io/) for client side routing, you can control whether a page can be navigate or not.
-- Pre-rendered at build time (only public pages).
+- Client side routing.
+- Pre-rendered at build time.
 
 
 ## Can I use it as a static site generator?
@@ -31,7 +31,7 @@ Yes.
 
 ## Getting started
 Choose a boilerplate to start with
-- [ES5 boilerplate](https://github.com/sitepack/es5-boilerplate)
+- [Router5 boilerplate](https://github.com/sitepack/router5-boilerplate)
 
 
 ## Project status
