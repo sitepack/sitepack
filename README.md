@@ -1,5 +1,5 @@
 # Sitepack
-A boilerplate for building lazymorphic applications.
+A toolkit for building lazymorphic applications.
 
 
 ## What is [lazymorphic applications](https://blog.andyet.com/2015/05/18/lazymorphic-apps-bringing-back-static-web)?
